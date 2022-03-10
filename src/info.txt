@@ -1,0 +1,10 @@
+Paso 1: Instalar Node, un entorno que permite ejecutar código JS en mi PC
+Paso 2: Instalar y configurar webpack y babel
+Paso 2 REAL: Instalar Create React App (Configuar automáticamente webpack y babel)
+Paso 3: Crear proyecto
+    -npm install -g create-react-app && create-react-app nombreaplicacion
+    -npx create-react-app
+// Esto solo se hace una vez
+
+Paso 4: Entrar en la carpeta del proyecto
+Paso 5: Ejecutar npm start
