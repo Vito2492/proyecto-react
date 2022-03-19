@@ -8,3 +8,8 @@ Paso 3: Crear proyecto
 
 Paso 4: Entrar en la carpeta del proyecto
 Paso 5: Ejecutar npm start
+
+COMPONENTE
+1-CREAR UNA FUNCION CON LETRA MAYUSCULA
+Debo exportar la FUNCION
+y debe devolver una sola cosa

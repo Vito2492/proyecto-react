@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import React from "react";
+import Header from "../src/Componentes/Header/Header";
+import Navbar from "../src/Componentes/Navbar/Navbar"
+import ItemListContainer from "../src/Containers/ItemListContainer/ItemListContainer";
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+const App = () =>{
+
+
+return (
+  <div className="App-header">
+    <Header />
+    <Navbar />
+    <ItemListContainer greeting={"Tortas y cupcakes personalizadas"}/>
+  </div>
+  );
+
+};
+
+
+export default App
+
+
+//Cambiar lo de Header por NavBar, crear una carpeta Components también. Traer navbar de otro proyecto. Hacer git push y mandar link
